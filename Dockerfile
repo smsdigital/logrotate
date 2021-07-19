@@ -1,4 +1,5 @@
-FROM alpine:3.14.0
+# base image is built from https://github.com/blacklabelops/baseimages/tree/master/alpine
+FROM smsdigital/smart-alarm-on-premise-alpine:stable
 
 # logrotate version (e.g. 3.9.1-r0)
 ARG LOGROTATE_VERSION=latest
